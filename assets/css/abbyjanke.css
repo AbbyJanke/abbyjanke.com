@@ -1,0 +1,135 @@
+.navbar-brand {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 1.4em;
+  color: #3A393C !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ED4B51;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link .fa-chevron-right {
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link:hover .fa-chevron-right {
+  padding-left: 10px;
+}
+
+body {
+  color: #ffffff;
+}
+
+header {
+  padding: 100px 0;
+  background: #ED4B51;
+  color: #ffa0a3;
+}
+
+header h1 {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 2.8em;
+  color: #ffffff;
+}
+
+header h2 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin: 40px 0 0; 
+  color: #ffffff;
+  padding: 0;
+}
+
+header h2 span {
+  color: #B03A40;
+}
+
+header .lead {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  padding: 0;
+  font-weight: 300;
+}
+
+header hr {
+  border-top: 1px solid #B03A40;
+}
+
+header p {
+  font-family: 'Lato', sans-serif;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+header p a {
+  color: #ffffff;
+}
+
+header p a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  margin: 0;
+  padding: 60px;
+}
+
+.pill {
+  min-width: 14px;
+  width: 14px;
+  height: 5px;
+  min-height: 5px;
+  border-radius: 3px;
+  float: left;
+  margin-right: 5px;
+}
+
+.pill-lt {
+  background: rgba(0,0,0,0.1);
+}
+
+.pill-md {
+  background: rgba(0,0,0,0.2);
+}
+
+.pill-dk {
+  background: rgba(0,0,0,0.3);
+}
+
+.pill-lt-white {
+  background: rgba(255,255,255,0.1);
+}
+
+.pill-md-white {
+  background: rgba(255,255,255,0.2);
+}
+
+.pill-dk-white {
+  background: rgba(255,255,255,0.3);
+}
+
+.insulincalc {
+  background: #37c669;
+}
+
+.comingsoon {
+  background: #2A2F36;
+  text-align: center;
+}
+
+.android {
+  position: relative;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+
+.iphone { 
+  position: relative;
+}
