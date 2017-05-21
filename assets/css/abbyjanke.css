@@ -41,7 +41,7 @@ header h2 {
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
   font-size: 4em;
-  margin: 40px 0 0; 
+  margin: 40px 0 0;
   color: #ffffff;
   padding: 0;
 }
@@ -115,6 +115,10 @@ section {
   background: rgba(255,255,255,0.3);
 }
 
+.tdlp {
+  background: #6A67CE;
+}
+
 .insulincalc {
   background: #37c669;
 }
@@ -128,12 +132,33 @@ section {
   text-align: center;
 }
 
+.comingsoon a {
+  color: #ED4B51;
+  text-decoration: none;
+}
+
+.comingsoon a:hover {
+  color: #ED4B51;
+}
+
 .android {
   position: relative;
   margin-left: -80px;
   margin-top: 10px;
 }
 
-.iphone { 
+.iphone {
   position: relative;
+}
+
+.btn-default {
+  background: rgba(0,0,0,0.2);
+  color: rgba(255,255,255,0.3);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.btn-default:hover {
+  background: rgba(0,0,0,0.3);
+  color: rgba(255,255,255,0.3);
 }
