@@ -25,6 +25,15 @@ body {
   color: #ffffff;
 }
 
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
 header {
   padding: 100px 0;
   background: #ED4B51;
@@ -113,6 +122,10 @@ section {
 
 .pill-dk-white {
   background: rgba(255,255,255,0.3);
+}
+
+.scoreraccoon {
+  background: #C20D30;
 }
 
 .tdlp {
